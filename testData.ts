@@ -52,6 +52,5 @@ export class RealEstate {
         this.street = "Київська";
         this.house = faker.random.numeric();
         this.flat = faker.random.numeric(2);
-    }
-    
+    }    
 }

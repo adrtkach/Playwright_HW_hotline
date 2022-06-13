@@ -15,8 +15,6 @@ export class VerifyDetailsAssert extends VerifyDetailsStep {
         await expect.soft(this.email, 'incorrect email').toHaveText(insurer.email);
         await expect.soft(this.passportNumber, 'incorrect passport number').toHaveText(insurer.passportNumber);
         await expect.soft(this.passportDateFrom, 'incorrect passport date from').toHaveText(insurer.passportDateFrom);
-        
-
     }
     
 }
