@@ -1,0 +1,17 @@
+{
+  "name": "playwright_hw_hotline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.1.0",
+    "@playwright/test": "^1.22.2",
+    "allure-commandline": "^2.17.2",
+    "allure-playwright": "^2.0.0-beta.16",
+    "experimental-allure-playwright": "^0.0.3"
+  }
+}
